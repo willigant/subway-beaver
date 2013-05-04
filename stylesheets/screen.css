@@ -1,0 +1,69 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 1, ../sass/partials/_layout.scss */
+.container {
+  width: 940px;
+  min-height: 100%;
+  margin-top: 20px;
+}
+
+/* line 7, ../sass/partials/_layout.scss */
+.logo-right {
+  width: 250px;
+  float: left;
+  color: #017560;
+}
+
+/* line 13, ../sass/partials/_layout.scss */
+h2 {
+  color: #017560;
+}
+
+/* line 17, ../sass/partials/_layout.scss */
+.clear {
+  clear: both;
+}
+
+/* line 21, ../sass/partials/_layout.scss */
+#beaver {
+  width: 50px;
+  float: left;
+}
+
+/* line 26, ../sass/partials/_layout.scss */
+#email {
+  clear: both;
+  float: left;
+  width: 300px;
+}
+
+/* line 32, ../sass/partials/_layout.scss */
+.form-holder {
+  width: 300px;
+}
+
+/* line 36, ../sass/partials/_layout.scss */
+.pad-10 {
+  padding-bottom: 10px;
+}
+
+/* line 40, ../sass/partials/_layout.scss */
+.dark-green {
+  background-color: #017560;
+}
+
+/* line 44, ../sass/partials/_layout.scss */
+.form-holder-1 {
+  float: left;
+  clear: both;
+  padding-right: 47px;
+}
+
+/* line 50, ../sass/partials/_layout.scss */
+.form-holder-2 {
+  float: left;
+  padding-left: 50px;
+  border-left: 1px solid #e1e1e1;
+}
