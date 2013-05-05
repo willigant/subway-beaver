@@ -77,13 +77,18 @@ h2 {
   cursor: pointer;
 }
 
+/* line 62, ../sass/partials/_layout.scss */
+.selected {
+  opacity: .5;
+}
+
 @media screen and (min-width: 768px) {
-  /* line 63, ../sass/partials/_layout.scss */
+  /* line 67, ../sass/partials/_layout.scss */
   .container {
     padding: 0 30px;
   }
 
-  /* line 66, ../sass/partials/_layout.scss */
+  /* line 70, ../sass/partials/_layout.scss */
   .form-holder-2 {
     padding-left: 50px;
     border-left: 1px solid #e1e1e1;
@@ -91,14 +96,14 @@ h2 {
     position: relative;
   }
 
-  /* line 72, ../sass/partials/_layout.scss */
+  /* line 76, ../sass/partials/_layout.scss */
   .form-holder-1 {
     padding-right: 47px;
     float: left;
     position: relative;
   }
 }
-/* line 79, ../sass/partials/_layout.scss */
+/* line 83, ../sass/partials/_layout.scss */
 .form-holder-3 {
   clear: both;
 }
@@ -203,7 +208,7 @@ h2 {
 
 /* line 43, ../sass/partials/_subways.scss */
 .r-train {
-  background-position: -320px -45px;
+  background-position: -360px -45px;
 }
 
 /* line 44, ../sass/partials/_subways.scss */

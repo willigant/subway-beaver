@@ -59,6 +59,10 @@ h2{
 	cursor:pointer;
 }
 
+.selected {
+	opacity:.5;
+}
+
 @media screen and (min-width: 768px){
 	.container{
 		padding: 0 30px;
