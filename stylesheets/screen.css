@@ -68,13 +68,22 @@ h2 {
   width: 100%;
 }
 
+/* line 54, ../sass/partials/_layout.scss */
+.subway-icon {
+  background-image: url("images/subway_icons.png");
+  width: 35px;
+  height: 35px;
+  float: left;
+  cursor: pointer;
+}
+
 @media screen and (min-width: 768px) {
-  /* line 59, ../sass/partials/_layout.scss */
+  /* line 63, ../sass/partials/_layout.scss */
   .container {
     padding: 0 30px;
   }
 
-  /* line 62, ../sass/partials/_layout.scss */
+  /* line 66, ../sass/partials/_layout.scss */
   .form-holder-2 {
     padding-left: 50px;
     border-left: 1px solid #e1e1e1;
@@ -82,14 +91,134 @@ h2 {
     position: relative;
   }
 
-  /* line 68, ../sass/partials/_layout.scss */
+  /* line 72, ../sass/partials/_layout.scss */
   .form-holder-1 {
     padding-right: 47px;
     float: left;
     position: relative;
   }
 }
-/* line 75, ../sass/partials/_layout.scss */
+/* line 79, ../sass/partials/_layout.scss */
 .form-holder-3 {
   clear: both;
+}
+
+/* line 1, ../sass/partials/_subways.scss */
+.one-train {
+  background-position: left -8px;
+}
+
+/* line 4, ../sass/partials/_subways.scss */
+.two-train {
+  background-position: -40px -8px;
+}
+
+/* line 7, ../sass/partials/_subways.scss */
+.three-train {
+  background-position: -80px -8px;
+}
+
+/* line 10, ../sass/partials/_subways.scss */
+.four-train {
+  background-position: -120px -8px;
+}
+
+/* line 13, ../sass/partials/_subways.scss */
+.five-train {
+  background-position: -160px -8px;
+}
+
+/* line 16, ../sass/partials/_subways.scss */
+.six-train {
+  background-position: -200px -8px;
+}
+
+/* line 19, ../sass/partials/_subways.scss */
+.seven-train {
+  background-position: -240px -8px;
+}
+
+/* line 22, ../sass/partials/_subways.scss */
+.a-train {
+  background-position: -280px -8px;
+}
+
+/* line 25, ../sass/partials/_subways.scss */
+.c-train {
+  background-position: -320px -8px;
+}
+
+/* line 26, ../sass/partials/_subways.scss */
+.e-train {
+  clear: both;
+  background-position: -360px -8px;
+}
+
+/* line 30, ../sass/partials/_subways.scss */
+.b-train {
+  background-position: left -45px;
+}
+
+/* line 31, ../sass/partials/_subways.scss */
+.d-train {
+  background-position: -40px -45px;
+}
+
+/* line 32, ../sass/partials/_subways.scss */
+.f-train {
+  background-position: -80px -45px;
+}
+
+/* line 33, ../sass/partials/_subways.scss */
+.m-train {
+  background-position: -120px -45px;
+}
+
+/* line 34, ../sass/partials/_subways.scss */
+.g-train {
+  background-position: -160px -45px;
+}
+
+/* line 35, ../sass/partials/_subways.scss */
+.j-train {
+  background-position: -200px -45px;
+}
+
+/* line 36, ../sass/partials/_subways.scss */
+.z-train {
+  background-position: -240px -45px;
+}
+
+/* line 37, ../sass/partials/_subways.scss */
+.n-train {
+  background-position: -280px -45px;
+  clear: both;
+  padding-bottom: 10px;
+}
+
+/* line 42, ../sass/partials/_subways.scss */
+.q-train {
+  background-position: -320px -45px;
+}
+
+/* line 43, ../sass/partials/_subways.scss */
+.r-train {
+  background-position: -320px -45px;
+}
+
+/* line 44, ../sass/partials/_subways.scss */
+.l-train {
+  background-position: left 36px;
+}
+
+/* line 45, ../sass/partials/_subways.scss */
+.s-train {
+  background-position: -40px 36px;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 48, ../sass/partials/_subways.scss */
+  .e-train, .n-train {
+    clear: none;
+  }
 }
