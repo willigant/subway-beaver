@@ -12,8 +12,8 @@
 /* line 7, ../sass/partials/_layout.scss */
 .logo-right {
   width: 250px;
-  float: left;
   color: #017560;
+  float: left;
 }
 
 /* line 13, ../sass/partials/_layout.scss */
@@ -22,48 +22,63 @@ h2 {
 }
 
 /* line 17, ../sass/partials/_layout.scss */
+.header {
+  width: 315px;
+  padding-bottom: 15px;
+}
+
+/* line 22, ../sass/partials/_layout.scss */
 .clear {
   clear: both;
 }
 
-/* line 21, ../sass/partials/_layout.scss */
+/* line 26, ../sass/partials/_layout.scss */
 #beaver {
   width: 50px;
-  float: left;
 }
 
-/* line 26, ../sass/partials/_layout.scss */
+/* line 30, ../sass/partials/_layout.scss */
 #email {
-  clear: both;
-  float: left;
   width: 300px;
 }
 
-/* line 32, ../sass/partials/_layout.scss */
+/* line 34, ../sass/partials/_layout.scss */
 .form-holder {
   width: 300px;
 }
 
-/* line 36, ../sass/partials/_layout.scss */
+/* line 38, ../sass/partials/_layout.scss */
 .pad-10 {
   padding-bottom: 10px;
 }
 
-/* line 40, ../sass/partials/_layout.scss */
+/* line 42, ../sass/partials/_layout.scss */
 .dark-green {
   background-color: #017560;
 }
 
-/* line 44, ../sass/partials/_layout.scss */
-.form-holder-1 {
-  float: left;
-  clear: both;
-  padding-right: 47px;
+/* line 46, ../sass/partials/_layout.scss */
+.forms {
+  width: 100%;
 }
 
-/* line 50, ../sass/partials/_layout.scss */
-.form-holder-2 {
-  float: left;
-  padding-left: 50px;
-  border-left: 1px solid #e1e1e1;
+@media screen and (min-width: 768px) {
+  /* line 52, ../sass/partials/_layout.scss */
+  .form-holder-2 {
+    padding-left: 50px;
+    border-left: 1px solid #e1e1e1;
+    float: left;
+    position: relative;
+  }
+
+  /* line 58, ../sass/partials/_layout.scss */
+  .form-holder-1 {
+    padding-right: 47px;
+    float: left;
+    position: relative;
+  }
+}
+/* line 65, ../sass/partials/_layout.scss */
+.form-holder-3 {
+  clear: both;
 }
