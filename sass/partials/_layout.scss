@@ -52,8 +52,12 @@ h2{
 }
 
 .subway-icon{
+	background-image:url('images/subway_icons.png');
+	width:35px;
+	height:35px;
+	float:left;
+	cursor:pointer;
 }
-
 
 @media screen and (min-width: 768px){
 	.container{
