@@ -1,0 +1,51 @@
+.one-train{
+	background-position:left -8px;
+}
+.two-train{
+	background-position:-40px -8px;
+}
+.three-train{
+	background-position:-80px -8px;
+}
+.four-train{
+	background-position:-120px -8px;
+}
+.five-train{
+	background-position:-160px -8px;
+}
+.six-train{
+	background-position:-200px -8px;
+}
+.seven-train{
+	background-position:-240px -8px;
+}
+.a-train{
+	background-position:-280px -8px;	
+}
+.c-train{background-position:-320px -8px;}
+.e-train{
+	clear:both;
+	background-position:-360px -8px;
+}
+.b-train{background-position:left -45px;}
+.d-train{background-position:-40px -45px;}
+.f-train{background-position:-80px -45px;}
+.m-train{background-position:-120px -45px;}
+.g-train{background-position:-160px -45px;}
+.j-train{background-position:-200px -45px;}
+.z-train{background-position:-240px -45px;}
+.n-train{
+	background-position:-280px -45px;
+	clear:both;
+	padding-bottom:10px;
+}
+.q-train{background-position:-320px -45px;}
+.r-train{background-position:-360px -45px;}
+.l-train{background-position:left 36px;}
+.s-train{background-position:-40px 36px;}
+
+@media screen and (min-width: 768px){
+	.e-train, .n-train{
+		clear:none;
+	}
+}
